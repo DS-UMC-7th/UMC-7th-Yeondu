@@ -29,22 +29,9 @@
 		2B518FE02CBE5B0800F6DD77 /* kreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		2B800DFE2CD6491100B56BD1 /* Exceptions for "kream" folder in "kream" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				CountUpDown/Info.plist,
-			);
-			target = 2B518FBF2CBE5B0400F6DD77 /* kream */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2B518FC22CBE5B0400F6DD77 /* kream */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				2B800DFE2CD6491100B56BD1 /* Exceptions for "kream" folder in "kream" target */,
-			);
 			path = kream;
 			sourceTree = "<group>";
 		};
@@ -291,7 +278,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WU2RBYL9Y4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = kream/CountUpDown/Info.plist;
+				INFOPLIST_FILE = kream/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -322,7 +309,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WU2RBYL9Y4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = kream/CountUpDown/Info.plist;
+				INFOPLIST_FILE = kream/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

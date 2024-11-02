@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  kream
 //
-//  Created by 신연주 on 10/15/24.
+//  Created by 신연주 on 11/2/24.
 //
 
 import UIKit
@@ -31,6 +31,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
 
+
 }
 
-Exception    NSException *    "Invalid parameter not satisfying: [name length] > 0"    0x0000600000c5b4e0
