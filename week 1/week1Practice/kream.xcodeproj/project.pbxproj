@@ -29,9 +29,22 @@
 		2B518FE02CBE5B0800F6DD77 /* kreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2B518FE82CBE5B0800F6DD77 /* Exceptions for "kream" folder in "kream" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CountUpDown/Info.plist,
+			);
+			target = 2B518FBF2CBE5B0400F6DD77 /* kream */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		2B518FC22CBE5B0400F6DD77 /* kream */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2B518FE82CBE5B0800F6DD77 /* Exceptions for "kream" folder in "kream" target */,
+			);
 			path = kream;
 			sourceTree = "<group>";
 		};
