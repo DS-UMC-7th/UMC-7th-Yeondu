@@ -2,12 +2,16 @@
 //  StyleViewController.swift
 //  kream
 //
-//  Created by 김건 on 11/3/24.
+//  Created by 신연주 on 11/3/24.
 //
 
 import UIKit
 
-class StyleViewController: UIView {
+class StyleViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
 
     /*
     // Only override draw() if you perform custom drawing.
