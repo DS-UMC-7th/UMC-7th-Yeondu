@@ -31,7 +31,7 @@ class ProfileManageView: UIView {
     }
     
     // 프로필 이미지
-    private let profileImageView: UIImageView = {
+    let profileImageView: UIImageView = {
         let imageView = UIImageView()
         
         imageView.image = UIImage(named: "profile_image")
@@ -64,7 +64,7 @@ class ProfileManageView: UIView {
     }()
     
     // 이메일 텍스트 필드
-    private let emailTextField: UITextField = {
+    let emailTextField: UITextField = {
         let textField = UITextField()
         
         textField.text = "example@naver.com"
@@ -101,7 +101,7 @@ class ProfileManageView: UIView {
     }()
     
     // 비밀번호 텍스트 필드
-    private let passwordTextField: UITextField = {
+    let passwordTextField: UITextField = {
         let textField = UITextField()
         
         textField.text = "****************"

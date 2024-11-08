@@ -18,4 +18,24 @@ class ViewController: UIViewController {
         let view = LoginView()
         return view
     }()
+    
+    private func setupActions() {
+            loginView.loginButton.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
+        }
+
+        @objc private func loginButtonDidTap() {
+            guard let email = loginView.emailTextField.text, !email.isEmpty else {
+                return }
+            guard let password = loginView.passwordTextField.text, !password.isEmpty else {
+                return
+            }
+            
+            loginModel.saveUserEmail(email)
+            loginModel.saveUserPassword(password)
+            
+            let baseViewController = BaseViewController()
+            
+            baseViewController.modalPresentationStyle = .fullScreen
+            present(baseViewController, animated: true)
+        }
 }

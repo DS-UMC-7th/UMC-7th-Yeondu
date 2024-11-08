@@ -46,7 +46,7 @@ class LoginView: UIView {
     }()
 
     // 이메일 입력 (텍스트 필드, 레이블)
-    private let emailLabel: UILabel = {
+    let emailLabel: UILabel = {
         let label = UILabel()
         
         label.text = "이메일 주소"
@@ -68,7 +68,7 @@ class LoginView: UIView {
     }()
 
     // 비밀번호 입력 (텍스트 필드, 레이블)
-    private let passwordLabel: UILabel = {
+    let passwordLabel: UILabel = {
         let label = UILabel()
         
         label.text = "비밀번호"
